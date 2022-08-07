@@ -133,3 +133,5 @@ dmypy.json
 
 eta/
 tests/temp/
+
+.DS_store

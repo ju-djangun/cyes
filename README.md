@@ -20,7 +20,7 @@
 <div align="center">
   <br />
 
-  [![Project license](https://img.shields.io/github/license/ju-djangun/cyes.svg?style=flat-square)](LICENSE)
+  [![Project license](https://img.shields.io/github/license/ju-djangun/cyes?style=flat-square)](LICENSE)
 </div>
 
 <details open="open">

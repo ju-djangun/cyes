@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1618 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Nori-Regular, Nori;
+        font-size: 100px;
+      }
+
+      .cls-2 {
+        font-size: 700px;
+        letter-spacing: .01em;
+        opacity: .85;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Roboto-Bold, Roboto;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: .13em;
+      }
+
+      .cls-3 {
+        font-size: 380px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(78.4 683.91)"><tspan x="0" y="0">C</tspan></text>
+  <text class="cls-3" transform="translate(642.88 720.67)"><tspan class="cls-4" x="0" y="0">y</tspan><tspan class="cls-5" x="192.13" y="0">es</tspan></text>
+  <text class="cls-1" transform="translate(783.69 741.26)"><tspan x="0" y="0">et</tspan></text>
+  <text class="cls-1" transform="translate(1260.19 740.26)"><tspan x="0" y="0">emicolons</tspan></text>
+  <text class="cls-1" transform="translate(1014.01 740.86)"><tspan x="0" y="0">xist</tspan></text>
+</svg>
