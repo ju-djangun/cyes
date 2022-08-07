@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/ju-djangun/cyes">
-    <img src="https://user-images.githubusercontent.com/104500082/183290529-92a8b30e-4766-42df-957e-cb3d247a5f5f.svg" alt="Logo" height="300">
+    <img src="https://user-images.githubusercontent.com/104500082/183292900-745172a1-0cb9-4f29-8cd5-c84247f1be87.png" alt="Logo" height="300">
   </a>
 </h1>
 
@@ -30,6 +30,7 @@
   - [Built With](#built-with)
 - [Getting started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Motivation](#motivation)
 - [FAQ](#faq)
 - [Contributing](#contributing)
@@ -75,6 +76,12 @@ For this project, you can use both 'C-yes' and 'cy-es' depending on your prefere
 ### Prerequisites
 
 > Python 3.8 or higher
+
+> pip3
+
+### Installation
+
+> pip3 install cyes
 
 
 ## Motivation
