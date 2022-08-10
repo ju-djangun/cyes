@@ -8,6 +8,7 @@ from pathlib import Path
 import typer
 from rich.console import Console
 
+from cyes import __version__
 from cyes.reader import line_grater
 from cyes.alt import AbstractLineTreeManager
 from cyes.states import LineContext, Begin, Wrong
@@ -36,6 +37,11 @@ def callback():
     """
     C Y Semicolon - C without {;}
     """
+
+def version_callback(value: bool):
+    if value:
+        print(f"{__version__}")
+        raise typer.Exit()
 
 
 def abstract_line_tree_build(codeline_dict: dict) -> LineContext:
@@ -125,6 +131,13 @@ def run(filename: str, math: bool = False):
             break
         if output:
             print(output.strip())
+
+@app.callback()
+def main(
+    version: Optional[bool] = typer.Option(
+        None, "--version", callback=version_callback, is_eager=True),
+):
+    return
 
 
 if __name__ == "__main__":
