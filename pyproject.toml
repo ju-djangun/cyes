@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cyes"
-version = "0.0.3"
+version = "0.0.4"
 description = "C Yet Exist Semicolon - C-like without {;}"
 authors = ["ju-djangun <ju@djangun.com>"]
 readme = "README.md"

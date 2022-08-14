@@ -81,7 +81,9 @@ For this project, you can use both 'C-yes' and 'cy-es' depending on your prefere
 
 ### Installation
 
-> pip3 install cyes
+```bash
+pip3 install cyes
+```
 
 
 ## Motivation
