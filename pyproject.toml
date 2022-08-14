@@ -17,6 +17,7 @@ typer = {extras = ["all"], version = "^0.6.1"}
 pytest = "^5.2"
 black = "^22.6.0"
 mypy = "^0.971"
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
