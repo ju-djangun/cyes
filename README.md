@@ -20,6 +20,7 @@
 <div align="center">
   <br />
 
+  [![codecov](https://codecov.io/gh/ju-djangun/cyes/branch/main/graph/badge.svg?token=033RLYW21H)](https://codecov.io/gh/ju-djangun/cyes)
   [![Project license](https://img.shields.io/github/license/ju-djangun/cyes?style=flat-square)](LICENSE)
 </div>
 
@@ -31,6 +32,7 @@
 - [Getting started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Usage](#usage)
 - [Motivation](#motivation)
 - [FAQ](#faq)
 - [Contributing](#contributing)
@@ -82,8 +84,34 @@ For this project, you can use both 'C-yes' and 'cy-es' depending on your prefere
 ### Installation
 
 ```bash
-pip3 install cyes
+pip install cyes
 ```
+
+### Usage
+
+```bash
+cyes translate <file_name>
+```
+
+Translate .cy file to .c (with {;}) file.
+
+```bash
+cyes new <project_name>
+```
+
+Create <project_name> directory with template main.cy file.
+
+```bash
+cyes build <project_name>/<file_name.cy>
+```
+
+Translate and build using ```gcc``` command. This command will create <file_name.out> executive file in <project_name> directory.
+
+```bash
+cyes run <project_name>/main.cy
+```
+
+Build and execute .out file on your shell. 
 
 
 ## Motivation
@@ -91,7 +119,6 @@ pip3 install cyes
 1. studying transpiler
 2. My little finger is more important than C language tradition.
 
-<br />
 <br />
 
 1. 트랜스파일러(컴파일러 및 형식 언어) 공부를 위한 토이 프로젝트
@@ -103,7 +130,6 @@ pip3 install cyes
 
 Thanks for taking the time to contribute.
 
-<br />
 <br />
 
 기여에 관심을 가져주셔서 감사합니다.
@@ -117,7 +143,6 @@ This project is licensed under the **MIT license**.
 
 See [LICENSE](LICENSE) for more information.
 
-<br />
 <br />
 
 이 프로젝트는 MIT 라이선스를 따릅니다.
