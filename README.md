@@ -33,6 +33,8 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Rules](#rules)
+  - [Example](#example)
 - [Motivation](#motivation)
 - [FAQ](#faq)
 - [Contributing](#contributing)
@@ -112,6 +114,72 @@ cyes run <project_name>/main.cy
 ```
 
 Build and execute .out file on your shell. 
+
+### Rules
+
+Now, cyes only accept indenting by 4-spaces.
+
+And It ignores lines that begin with #.
+
+If you want use one-line comment(//), now you should follow indenting rule like this.
+
+```C
+int main():
+    printf("Commnet example")
+    // printf("Comment!")
+    // printf("Comments follow 4-space indenting too!)
+```
+
+
+### Example
+
+print_googoo.cy
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void print_googoo():
+    for (int i=2; i<=9; i++):
+        for (int j=1; j<=9; j++):
+            printf("%d x %d = %d\n", i, j, (i*j))
+        printf("\n")
+
+int main(void):
+    printf("hello world!\n")
+    print_googoo()
+
+    return 0
+```
+
+```bash
+cyes translate print_googoo.cy
+```
+
+print_googoo.c(result)
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void print_googoo() {
+    for (int i=2; i<=9; i++) {
+        for (int j=1; j<=9; j++) {
+            printf("%d x %d = %d\n", i, j, (i*j));
+        }
+        printf("\n");
+    }
+}
+
+int main(void) {
+    printf("hello world!\n");
+    print_googoo();
+
+    return 0;
+}
+```
 
 
 ## Motivation
