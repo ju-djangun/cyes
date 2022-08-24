@@ -57,7 +57,6 @@ It is simple, idiot CLI tool that auto semicolons&braces inserting by python-lik
 For this project, you can use both 'C-yes' and 'cy-es' depending on your preference. 
 
 <br />
-<br />
 
 'cyes'는 C-like 프로그래밍 언어(C/C++/C#...)를 써야 하는 파이썬 개발자를 위한 트랜스파일러입니다.
 
@@ -68,7 +67,7 @@ For this project, you can use both 'C-yes' and 'cy-es' depending on your prefere
 
 ### Built With
 
-- python3.6+
+- python 3.8+
 - [typer](https://github.com/tiangolo/typer)
 - [anytree](https://github.com/c0fec0de/anytree)
 - [poetry](https://python-poetry.org/)
